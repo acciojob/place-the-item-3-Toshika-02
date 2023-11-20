@@ -1,24 +1,14 @@
 
 /* Your CSS Code here. */
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-}
-
 .holder {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
-  padding: 10px;
-  background-color: #f0f0f0;
+  justify-content: space-around;
 }
 
 .item {
-  flex: 1 1 calc(33.33% - 20px); /* Flex-grow, Flex-shrink, Flex-basis */
-  min-width: 100px; /* Minimum width for better readability */
-  margin: 10px;
-  background-color: #ffffff;
-  border: 1px solid #ddd;
-  box-sizing: border-box;
-  text-align: center;
+  flex-basis: 25%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 5px;
 }
