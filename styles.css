@@ -3,12 +3,17 @@
 .holder {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between; /* Adjust as needed */
 }
 
 .item {
-  flex-basis: 25%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  margin: 5px;
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
 }
